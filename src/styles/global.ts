@@ -81,11 +81,16 @@ export const GlobalStyle = createGlobalStyle`
     right: 1.5rem;
     top: 1.5rem;
     border: 0;
+    border-radius: 0.25rem;
     background: transparent;
+    padding: 0.5rem;
+    display: flex;
 
     transition: filter 0.2s;
+    transition: background 0.2s;
 
     &:hover {
+      background: rgba(0, 0, 0, 0.1);
       filter: brightness(0.8);
     }
   }
